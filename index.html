@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SecureNote Vault by 0xbahari</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>SecureNote Vault</h1>
+        <p>Encrypt your private notes securely in your browser!</p>
+        <textarea id="noteInput" placeholder="Enter your note here..."></textarea>
+        <input type="password" id="keyInput" placeholder="Enter your key (e.g., a secret word)">
+        <button onclick="encryptNote()">Encrypt & Save</button>
+        <button onclick="decryptNote()">Decrypt & Load</button>
+        <p id="status"></p>
+    </div>
+    <footer>Created by <a href="https://github.com/0xbahari">0xbahari</a></footer>
+    <script src="script.js"></script>
+</body>
+</html>
